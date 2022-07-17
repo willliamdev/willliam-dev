@@ -1,9 +1,15 @@
 .container {
-  padding: 0 2rem;
+  display: flex;
+  flex: 1;
+  justify-content: center;
 }
 
-.main {
-  min-height: 100vh;
+.wrapper {
+  max-width: 1600px;
+}
+
+.landing {
+  min-height: 98vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -12,8 +18,17 @@
   align-items: center;
 }
 
-.footer a {
-  color: #009af3;
+.section {
+  min-height: 95vh;
+  padding: 4rem 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 4rem;
 }
 
 .footer {
@@ -27,6 +42,10 @@
   display: block;
   padding: 20px 0;
   color: #b6b6b6;
+}
+
+.footer a {
+  color: #009af3;
 }
 
 .title {
@@ -45,11 +64,4 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
 }

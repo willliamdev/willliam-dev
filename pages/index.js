@@ -5,31 +5,41 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Willliam.dev</title>
-        <meta name="description" content="William dev's website" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <div className={styles.wrapper}>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Hi, I am Willliam Dev
-        </h1>
 
-        <p className={styles.description}>
-          Just a boy who is powered by coffee, podcasts and music. Linux and open source enthusiast.
-        </p>
-      </main>
+        <Head>
+          <title>Willliam.dev</title>
+          <meta name="description" content="William dev's website" />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
 
-      <footer className={styles.footer}>
-        <span>Made with &#10084; and &#9749; by &nbsp;
-          <a
-            href="https://github.com/willliamdev"
-          >
-            <strong>willliam.dev</strong>
-          </a>
-        </span>
-      </footer>
-    </div>
+        <div className={styles.landing}>
+          <h1 className={styles.title}>
+            Hi, I am Willliam
+          </h1>
+
+          <p className={styles.description}>
+            Just a boy who is powered by coffee, podcasts and music.
+          </p>
+        </div>
+
+        <section className={styles.section}>
+
+
+          i"nfo  - Using experimental wasm build of next-swci"nfo  - Using experimental wasm build of next-swci"nfo  - Using experimental wasm build of next-swci"nfo  - Using experimental wasm build of next-swci"nfo  - Using experimental wasm build of next-swci"nfo  - Using experimental wasm build of next-swci"nfo  - Using experimental wasm build of next-swci"nfo  - Using experimental wasm build of next-swc
+        </section>
+
+        <footer className={styles.footer}>
+          <span>Made with &#10084; and &#9749; by &nbsp;
+            <a
+              href="https://github.com/willliamdev"
+            >
+              <strong>willliam.dev</strong>
+            </a>
+          </span>
+        </footer>
+      </div>
+    </div >
   )
 }
